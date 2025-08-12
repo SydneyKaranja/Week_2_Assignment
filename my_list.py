@@ -29,8 +29,9 @@ print("List after removing the last element:", my_list)
 my_list.sort()
 print("List after sorting in ascending order:", my_list)
 
-# Accessing elements in the list
-print("Fourth element:", my_list[3])  # Accessing the fourth element (index 3)
+# Finding the index of an element in the list
+my_list.index(30)
+print("Index of 30:", index_of_30)
 
 
 
